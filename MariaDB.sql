@@ -1,3 +1,17 @@
+Para garantir a segurança de dados no novo banco de dados, é essencial seguir os pilares fundamentais da segurança da informação. Esses pilares são:
+
+    Confidencialidade: Garantir que os dados sejam acessíveis apenas por pessoas autorizadas. Isso pode ser alcançado através de criptografia e controle de acesso rigoroso.
+    Integridade: Assegurar que os dados não sejam alterados ou corrompidos de maneira não autorizada. Isso envolve o uso de checksums, hashes e controles de versão.
+    Disponibilidade: Garantir que os dados estejam disponíveis para os usuários autorizados sempre que necessário. Isso pode ser feito através de backups regulares, redundância e planejamento de recuperação de desastres1.
+
+Além desses três pilares principais, outros aspectos importantes incluem:
+
+    Autenticidade: Verificar a identidade dos usuários e garantir que os dados sejam genuínos.
+    Irretratabilidade: Garantir que uma transação ou comunicação não possa ser negada posteriormente.
+    Conformidade: Assegurar que o sistema esteja em conformidade com as leis e regulamentos aplicáveis, como a Lei Geral de Proteção de Dados (LGPD) no Brasil23.
+
+
+
 -- Criação do banco de dados
 CREATE DATABASE EmpresaVendas;
 
